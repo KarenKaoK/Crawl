@@ -1,0 +1,19 @@
+name: Daily Crawler
+
+on:
+  # 設定爬蟲每天晚上九點定期執行
+  schedule:
+    - cron: "0 21 * * *"
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 檢出程式碼
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # 執行你的爬蟲指令，假設你的爬蟲指令為 python3 crawler.py
+      - name: Run crawler
+        run: python3 crawler.py
