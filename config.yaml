@@ -1,0 +1,28 @@
+# config yaml
+
+# init setting
+output_dir : 'output'
+log_dir : 'logs'
+article_dir : 'article'
+article_crawl_raw : 'article/raw'
+article_processed : 'article/processed'
+summary : 'summary'
+ 
+
+# crawler setting 
+crawler:
+  - name : BasketballBijiCrawler
+    root_url : https://basketball.biji.co
+    topic_url : https://basketball.biji.co/index.php?q=news
+  
+  - name : SportVisionCrawler
+    root_url : ''
+    topic_url : 'https://www.sportsv.net/basketball'
+
+  - name : TheNewsLensCrawler
+    root_url : ''
+    topic_url : 'https://www.thenewslens.com/tag/NBA'
+
+
+
+# logger setting
