@@ -3,7 +3,7 @@ name: Daily Crawler
 on:
   # 設定爬蟲每天晚上九點定期執行
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "0 5 * * *"
 
 jobs:
   crawl:
