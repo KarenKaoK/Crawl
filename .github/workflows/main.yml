@@ -16,4 +16,4 @@ jobs:
 
       # 執行你的爬蟲指令，假設你的爬蟲指令為 python3 crawler.py
       - name: Run crawler
-        run: python3 crawler.py
+        run: python3 main.py
