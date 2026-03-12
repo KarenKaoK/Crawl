@@ -1,6 +1,6 @@
-# Crawl-and-Gen
+# Crawl
 
-`Crawl-and-Gen` is a crawler practice project. The main goal of this repository is to design a reusable crawling framework, with [`crawler/base_crawler.py`](/Users/ren/Desktop/karen/git_karen/Crawl-and-Gen/crawler/base_crawler.py) as the base layer and source-specific crawler implementations built on top of it.
+`Crawl` is a crawler practice project. The main goal of this repository is to design a reusable crawling framework, with [`crawler/base_crawler.py`](/Users/ren/Desktop/karen/git_karen/Crawl-and-Gen/crawler/base_crawler.py) as the base layer and source-specific crawler implementations built on top of it.
 
 Instead of treating each crawler as a standalone script, this project is organized around a common crawler structure:
 
@@ -48,7 +48,7 @@ It currently performs:
 ## Project Structure
 
 ```text
-Crawl-and-Gen/
+Crawl/
 ├── main.py
 ├── config.yaml
 ├── logger.py
@@ -167,7 +167,7 @@ Although the config already lists multiple crawler sources, the current implemen
 
 # 中文版說明
 
-`Crawl-and-Gen` 是一個爬蟲練習專案。這個 repository 的主要目標不是只完成單一網站的爬取，而是練習設計一套可重複使用的爬蟲框架，並以 [`crawler/base_crawler.py`](/Users/ren/Desktop/karen/git_karen/Crawl-and-Gen/crawler/base_crawler.py) 作為基底，再依不同來源建立各自的 crawler。
+`Crawl` 是一個爬蟲練習專案。這個 repository 的主要目標不是只完成單一網站的爬取，而是練習設計一套可重複使用的爬蟲框架，並以 [`crawler/base_crawler.py`](/Users/ren/Desktop/karen/git_karen/Crawl-and-Gen/crawler/base_crawler.py) 作為基底，再依不同來源建立各自的 crawler。
 
 這個專案的核心方向是：
 
@@ -215,7 +215,7 @@ Although the config already lists multiple crawler sources, the current implemen
 ## 專案結構
 
 ```text
-Crawl-and-Gen/
+Crawl/
 ├── main.py
 ├── config.yaml
 ├── logger.py
